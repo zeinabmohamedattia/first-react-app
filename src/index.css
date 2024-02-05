@@ -1,0 +1,86 @@
+:root {
+    --first-color: #2C3E50;
+    --sec-color: #1ABC9C;
+}
+
+.first-bg {
+    background-color: var(--first-color);
+}
+
+.sec-bg {
+    background-color: var(--sec-color) !important;
+}
+
+.first-text {
+    color: var(--first-color);
+}
+
+.sec-text {
+    color: var(--sec-color);
+}
+
+footer ul li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+}
+
+
+input:focus {
+    box-shadow: none !important;
+}
+
+.nav-link:focus {
+    border: var(--sec-color) solid 1px;
+    background-color: var(--sec-color);
+    border-radius: 8px;
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+
+}
+
+.vh-90 {
+    height: 90vh;
+}
+
+.layer {
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+
+.card {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card:hover .layer {
+    opacity: 1;
+
+}
+
+.labelOn {
+    top: 0 !important;
+    transition: top 0.5s;
+}
+
+.labelOff {
+    top: 50% !important;
+    transition: top 0.5s;
+}
+
+.scrollOn {
+    padding-block: 20px;
+    transition: .6s padding-block;
+
+}
+
+.scrollOff {
+    padding-block: 28px !important;
+    transition: .6s padding-block;
+
+}
